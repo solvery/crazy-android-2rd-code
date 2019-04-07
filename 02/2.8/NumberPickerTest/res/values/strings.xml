@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="app_name">选择您意向的价格范围</string>
+
+</resources>

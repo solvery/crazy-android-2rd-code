@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center_horizontal"
+	>
+<!-- 定义模拟时钟 -->
+<AnalogClock  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	/>
+<!-- 定义数字时钟 -->
+<DigitalClock
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textSize="14pt"
+	android:textColor="#f0f"
+	android:drawableRight="@drawable/ic_launcher"
+	/>
+<!-- 定义模拟时钟,并使用自定义表盘、时针图片 -->
+<AnalogClock  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:dial="@drawable/watch"
+	android:hand_minute="@drawable/hand"
+	/>
+</LinearLayout>

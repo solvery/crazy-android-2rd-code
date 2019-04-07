@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">FragmentTest</string>
+    <string name="title_book_detail">图书详情</string>
+    <string name="title_book_list">图书列表</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">AnimatorTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_animator_test">弹跳小球</string>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+<!-- 定义一个ImageView组件 -->
+<ImageView android:id="@+id/imageView"
+	android:layout_width="match_parent"
+	android:layout_height="300dp"
+	android:scaleType="fitCenter"
+	/>
+<!-- 定义一个Gallery组件 -->
+<Gallery android:id="@+id/gallery"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="2dp" 
+	android:unselectedAlpha="0.6"
+	android:spacing="2pt"
+	/>	
+</LinearLayout>
